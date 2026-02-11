@@ -81,7 +81,7 @@ a:hover li {
     margin-top: 10px;
 }
 
-span {
+.name {
     color: rgb(75, 180, 241);
     font-weight: 300;
 }
@@ -115,6 +115,7 @@ span {
 }
  .div-para{
     width: 500px;
+    margin-left: 160px;
 
  }
 .para-3{
@@ -132,8 +133,8 @@ span {
 
 .div-30 {
     display: grid;
-    grid-template-columns: 900px 400px;
-    column-gap: 50px;
+    grid-template-columns: 700px 400px;
+    column-gap:5px;
     margin-left: 100px;
     margin-right: 500px;
     margin-top: 20px;
@@ -241,6 +242,73 @@ background-color: rgb(198, 227, 235);
 .div-36 button:hover{
     cursor: pointer;
     background-color: rgb(13, 13, 151);
+}
+
+.list-expriance{
+    display: grid;
+    grid-template-columns: 85px 155px 160px 85px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    column-gap: 10px;
+}
+.div-33{
+    display: grid;
+    grid-template-columns: 85px 150px 85px 160px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    column-gap: 10px;
+}
+.div-34{
+    display: grid;
+    grid-template-columns: 85px 150px 155px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    column-gap: 10px;
+}
+.div-35{
+    display: grid;
+    grid-template-columns: 80px;
+    margin-left: 10px;
+}
+span{
+    color: black;
+}
+button{
+    border: none;
+    padding: 3px;
+    border-radius: 7px;
+}
+.div-37{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+}
+.div-38{
+    width: 400px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.div-38 p{
+    margin-top: 10px;
+    width: 333px;
+    color: rgb(125, 125, 125);
+}
+.div-03{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(75, 75, 75);
+}
+.but1{
+    margin-top: 10px;
+    width: 300px;
+    border: 2px solid rgb(195,195,195);
+    height: 35px;
 }
 body {
     background-color: white;
